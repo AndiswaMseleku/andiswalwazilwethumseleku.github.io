@@ -23,7 +23,7 @@ const portfolioData = {
         location: "Durban, South Africa, Adams Mission",
         email: "mselekuandiswa9@gmail.com",
         phone: "+27 67 288 0699",
-        profileImage: "assets/images/profile/profile.jpeg",
+        profileImage: "assets/images/profile/Profile.jpeg",
         cvPath: "assets/documents/cv.pdf",
         roles: [
             "Software Developer",
@@ -340,7 +340,7 @@ const portfolioData = {
             name: "Introduction to Javascript Programming",
             organization: "Sololearn",
             date: "12 July 2023",
-            image: "assets/images/certificates/IntroductionJavascript.png",
+            image: "assets/images/certificates/Introductionjavascript.png",
             credentialUrl: "https://www.sololearn.com/certificates/CC-XGE5SXNX"
         },
         {
