@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of [Andiswa Lwazilwethu Mseleku] - Information Systems Student and Software Developer showcasing projects, skills, and experience.">
+    <meta name="keywords" content="software developer, portfolio, web development, information systems, projects">
+    <meta name="author" content="[Andiswa Lwazilwethu Mseleku]">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="[Andiswa Lwazilwethu Mseleku] - Software Developer Portfolio">
+    <meta property="og:description" content="Professional portfolio showcasing projects, skills, and experience in software development.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/profile/profile.jpg">
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="[Andiswa Lwazilwethu Mseleku] - Software Developer Portfolio">
+    <meta name="twitter:description" content="Professional portfolio showcasing projects and skills.">
+    
+    <title>[Andiswa Lwazilwethu Mseleku] - Software Developer Portfolio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- Letter Favicon (Shows "AM" for Andiswa Mseleku) -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236366f1'/><text x='50' y='65' text-anchor='middle' font-size='40' font-family='Arial' font-weight='bold' fill='white'>AM</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">
+                    <span class="logo-text">Andiswa Lwazilwethu</span><span class="logo-accent">Mseleku</span>
+                </a>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certifications" class="nav-link">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="grid-overlay"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+            <div class="code-symbols">
+                <span class="code-symbol">&lt;/&gt;</span>
+                <span class="code-symbol">{ }</span>
+                <span class="code-symbol">//</span>
+                <span class="code-symbol">&&</span>
+                <span class="code-symbol">=></span>
+                <span class="code-symbol">*</span>
+                <span class="code-symbol">#</span>
+                <span class="code-symbol">$</span>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    Available for opportunities
+                </div>
+                
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text" id="hero-name">[Andiswa Lwazilwethu Mseleku]</span>
+                </h1>
+                
+                <div class="hero-subtitle">
+                    <span id="typed-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                
+                <p class="hero-description" id="hero-bio">
+                    Information Systems student passionate about building innovative software solutions. 
+                    Focused on creating efficient, user-friendly applications that solve real-world problems.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i>
+                        View My Projects
+                    </a>
+                    <a href="assets/documents/CV.pdf" class="btn btn-secondary" download>
+                        <i class="fas fa-download"></i>
+                        Download CV
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i>
+                        Contact Me
+                    </a>
+                </div>
+                
+                <div class="hero-social-links" id="hero-social-links">
+                    <!-- Dynamically populated -->
+                </div>
+            </div>
+            
+            <div class="hero-right">
+                <div class="hero-image-container">
+                    <div class="hero-image-ring"></div>
+                    <div class="hero-image">
+                        <img src="assets/images/profile/profile.jpeg" alt="[Andiswa Lwazilwethu Mseleku] - Profile" id="hero-profile-image">
+                    </div>
+                    <div class="hero-image-badge hero-image-badge-1">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="hero-image-badge hero-image-badge-2">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <a href="#about" class="scroll-down" aria-label="Scroll down">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-image-wrapper">
+                        <img src="assets/images/profile/profile.jpg" alt="About [Andiswa Lwazilwethu Mseleku]" id="about-profile-image">
+                        <div class="about-image-overlay"></div>
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                    <h3>Information Systems Student & Software Developer</h3>
+                    <p id="about-bio">
+                        I am a passionate Information Systems student with a strong interest in software development and problem-solving. 
+                        My journey in technology began with a curiosity about how things work, which gradually evolved into a deep passion for creating innovative and practical solutions.
+                    </p>
+                    <p>
+                        Throughout my studies, I have faced challenges that pushed me outside my comfort zone, from learning difficult programming concepts to working on complex technical projects and overcoming academic obstacles. 
+                        These experiences have taught me the importance of patience, consistency, adaptability, and never giving up when a solution is not immediately clear. 
+                        Every challenge has helped me grow both technically and personally.
+                    </p>
+                    <p>
+                      I specialize in building web applications and enjoy exploring modern technologies to turn ideas into practical solutions. 
+                      Beyond my studies, I am always looking for opportunities to learn, experiment, and improve my skills. My goal is to create impactful software that solves real-world problems, makes a meaningful difference in people's lives, and helps me grow into the software professional I aspire to be.
+                    </p>
+
+                    <div class="about-details">
+                        <div class="about-detail">
+                            <strong>Location:</strong>
+                            <span id="about-location">[Durban, South Africa, Adams Mission]</span>
+                        </div>
+                        <div class="about-detail">
+                            <strong>Email:</strong>
+                            <span id="about-email">[mselekuandiswa9@gmail.com]</span>
+                        </div>
+                        <div class="about-detail">
+                            <strong>Interests:</strong>
+                            <span>Software Development, Web Technologies, Problem Solving</span>
+                        </div>
+                    </div>
+                    
+                    <div class="about-stats" id="about-stats">
+                        <!-- Dynamically populated -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            
+            <div class="skills-grid" id="skills-grid">
+                <!-- Dynamically populated -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">What I've been working on</p>
+            </div>
+            
+            <div class="projects-grid" id="projects-grid">
+                <!-- Dynamically populated -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+            
+            <div class="timeline" id="experience-timeline">
+                <!-- Dynamically populated -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">My academic background</p>
+            </div>
+            
+            <div class="timeline" id="education-timeline">
+                <!-- Dynamically populated -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Professional certifications</p>
+            </div>
+            
+            <div class="certifications-grid" id="certifications-grid">
+                <!-- Dynamically populated -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:[mselekuandiswa9@gmail.com]" id="contact-email">mselekuandiswa9@gmail.com</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <a href="tel:+1234567890" id="contact-phone">+27 67 688 0677</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <i class="fas fa-location-dot"></i>
+                        <h3>Location</h3>
+                        <p id="contact-location">Durban, South Africa, Adams Mission</p>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h3>Follow Me</h3>
+                        <div class="social-links" id="contact-social-links">
+                            <!-- Dynamically populated -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="form-name">Name</label>
+                                <input type="text" id="form-name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email">Email</label>
+                                <input type="email" id="form-email" name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="form-subject">Subject</label>
+                            <input type="text" id="form-subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="form-message">Message</label>
+                            <textarea id="form-message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">Andiswa Lwazilwethu</span><span class="logo-accent">Mseleku</span>
+                </div>
+                <p>&copy; 2024 Andiswa Lwazilwethu Mseleku. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+<div id="project-modal" class="modal" onclick="if(event.target===this)closeProjectModal()">
+    <div class="modal-content">
+        <button onclick="closeProjectModal()" style="position:absolute;top:10px;right:10px;z-index:9999;font-size:30px;background:none;border:none;cursor:pointer;">&times;</button>
+        <div id="modal-body"></div>
+    </div>
+</div>
+
+    <!-- Image Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close" aria-label="Close image">
+            <i class="fas fa-times"></i>
+        </button>
+        <button class="lightbox-prev" aria-label="Previous image">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <img id="lightbox-image" src="" alt="Lightbox image">
+        <button class="lightbox-next" aria-label="Next image">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="data/portfolio.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

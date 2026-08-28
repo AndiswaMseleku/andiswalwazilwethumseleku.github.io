@@ -1,0 +1,81 @@
+/* Additional responsive styles for the portfolio */
+/* This file is loaded after style.css to override specific styles */
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 90%;
+    }
+    
+    .hero-content {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 95%;
+    }
+    
+    .hero {
+        padding: 100px 0 40px;
+    }
+    
+    .hero-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .hero-image-container {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .section {
+        padding: 60px 0;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .projects-filter {
+        gap: 10px;
+    }
+    
+    .filter-btn {
+        padding: 8px 15px;
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .hero-description {
+        font-size: 1rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .project-card {
+        margin: 0 auto;
+    }
+}
