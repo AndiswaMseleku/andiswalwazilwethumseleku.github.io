@@ -23,7 +23,7 @@ const portfolioData = {
         location: "Durban, South Africa, Adams Mission",
         email: "mselekuandiswa9@gmail.com",
         phone: "+27 67 288 0699",
-        profileImage: "assets/images/profile/Profile.jpeg",
+        profileImage: "assets/images/profile/profile.jpeg",
         cvPath: "assets/documents/cv.pdf",
         roles: [
             "Software Developer",
