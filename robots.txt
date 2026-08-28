@@ -1,0 +1,11 @@
+# robots.txt for Andiswa Mseleku Portfolio
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+Disallow: /data/
+Disallow: /js/
+Disallow: /css/
+
+# Sitemap location
+Sitemap: https://andiswamseleku.github.io/andiswalwazilwethumseleku.github.io/sitemap.xml
