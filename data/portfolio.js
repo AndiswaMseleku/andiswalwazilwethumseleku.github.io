@@ -340,7 +340,7 @@ const portfolioData = {
             name: "Introduction to Javascript Programming",
             organization: "Sololearn",
             date: "12 July 2023",
-            image: "assets/images/certificates/IntroductionjavaScript.png",
+            image: "assets/images/certificates/IntroductionJS.png",
             credentialUrl: "https://www.sololearn.com/certificates/CC-XGE5SXNX"
         },
         {
